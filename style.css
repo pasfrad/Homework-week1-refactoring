@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Refers to the title 'Horiseon' at the top left of the page*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Separates the letters 'seo' from the title 'Horiseon' to make them a different color */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Stylizes the links at the top right of the page */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Stylizes the links at the top right of the page */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Stylizes the text of the top right links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Stylizes the text of the blocks of content */
+p {
+    font-size: 16px;
+}
+
+/* Adds and stylizes the image between the header and content */
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./assets/images/Horiseon.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Stylizes the main blocks of text */
+.section-blocks {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Stylizes the images within the main blocks */
+.section-blocks img {
+    max-height: 200px;
+}
+
+/* Stylizes the headers within the main blocks */
+.section-blocks h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Moves the image in the second block to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Moves the images in the first and third block to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Stylizes the boxes of content */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Stylizes the blocks of text on the right side */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Stylizes the text on the right side */
+.benefit-details {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Centers and separates the headers of text on the right side */
+.benefit-details h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Stylizes the images on the right side */
+.benefit-details img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
