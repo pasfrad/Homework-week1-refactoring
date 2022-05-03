@@ -1,19 +1,23 @@
-# Reese-Homework-week1-Refactoring
-Homework for week 1 of bootcamp
+# Horiseon Project
 
-This is the first homework assignment of the Coding Bootcamp course. It teaches how to maneuver around the HTML and CSS of an already completed but flawed bit of code. Specifically, one must ensure that all the links in the header work, and consolidate the unnecessary amunt of classes used.
+## Table of Contents
 
-Installation
-The website can be viewed on a internet browser.
+- [Picture](#picture)
+- [Description](#description)
+- [License](#license)
+- [Usage](#usage)
 
-Image
-![alt text](./assets:images/Horiseon.png)
+## Picture
+![Horiseon picture](./assets/images/Horiseon.png)
 
-Usage
-The website has no links or subpages. The only links are the three in the header, which direct the user down to specific parts of the page. Otherwise, the website is essentially a flyer.
+## Description
+This is the first homework assignment of the Coding Bootcamp course. It teaches how to maneuver around the HTML and CSS of an already completed but flawed bit of code. Specifically, one must ensure that all the links in the header work, and consolidate the unnecessary amunt of classes used in the CSS file..
 
-Credits
-No collaborators
+## License
+None
 
-License
-No license
+## Usage
+This is essentially a flyer for a nonexistant company, and it is not a deployed website. It is for practice and nothing else.
+
+## For Questions
+Email: rd.hart@outlook.com
